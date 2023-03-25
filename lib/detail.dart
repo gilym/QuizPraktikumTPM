@@ -29,7 +29,7 @@ class _DetailState extends State<Detail> {
                });
 
                SnackBar snackBar = SnackBar(
-                 content: (favorite)?Text("Berhasil Menambahkan Ke Favorite"):Text("Berhasil Menghapus Dari Favorite"),
+                 content: (favorite)?Text("Berhasil Menghapus Dari Favorite"):Text("Berhasil Menambahka Ke Favorite"),
                  backgroundColor: Colors.black,
                );
                ScaffoldMessenger.of(context).showSnackBar(snackBar);
